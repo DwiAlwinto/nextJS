@@ -1,0 +1,40 @@
+1. Setup Eslint di nextjs
+    a. Install Extension
+    b. eslint --init
+
+    link untuk agar dizinkan dengan file.tsx
+    https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    ini taro .eslint.json:
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+2. Berpindah dengan halaman Component link :
+    Component khusus react menggunakan Link
+3. Code Splintig dan PreFetching NextJS
+    a. dia akan memanggil file JS ya saja ketika kita menu apa
+    b. Ketika kita mengunjungi halaman tadi, kita tidak memanggil file ya lagi
+
+
+4. Membuat layout untuk page-page lain ya
+    yang dimaksud page global yang bisa dipakai dimana saja.
+5.Membuat custom halaman 404(Not Found Page).
+  (url yang tidak ada) kita buat file 404.tsx dan kita stayling aja
+6. Cara menggunakan Auto redirection di NextJS 
+    ketika kita di halaman 404.tsx sekian berapa detik kita arahkan lagi ke halaman homepage
+7. Membuat Metadata di NextJS(ini untuk membantu untuk pembuata sio)
+    import Head page
+8. Optimalisasi Image di NextJS
+    yang terbaru menggunakan image Component
+    image yang dipanggil menggunakan Component nextjs lebih cepat dan lebih size lebih kecil.
+    type menjadi webp
+    lazy load(Maksudnya jika website ya dibuka di akan load image yang ada dilayar saja ketika belum di scroll di tidak akan menampilkan image ya belum meng load image ya)
+
+9.  Memahami Dynamic Routes 
+    membuat file [id].tsx
+    tambahkan useRouter Syntax
+
+10. Cara Data Fetching getStatic Props
+    fungsi dari getStaticProps ini untuk mengenred data sesuai data yang kita pagi dari API
+    Kelemahan ya :
+    ketika data ya bersifat dinamis maka getStaticProps kurang cocok, harus me refresh ya agar data sesuai lagi
+    
+11. Data Fetching getStaticPaths (untuk get static path)
+    ini fokus di folder [id].tsx
