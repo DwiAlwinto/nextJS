@@ -81,7 +81,7 @@ export default function Home() {
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quae illum laboriosam vel natus alias eius dolorum voluptatem officiis iure reprehenderit fuga, nulla, quibusdam beatae officia magni a explicabo laudantium.</p>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quae illum laboriosam vel natus alias eius dolorum voluptatem officiis iure reprehenderit fuga, nulla, quibusdam beatae officia magni a explicabo laudantium.</p>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quae illum laboriosam vel natus alias eius dolorum voluptatem officiis iure reprehenderit fuga, nulla, quibusdam beatae officia magni a explicabo laudantium.</p>
-      <Image src='/NextJS.PNG' width={200} height={200} alt='NextJS.jpg'/>
+      <Image src='/NextJS.png' width={200} height={200} alt='NextJS.jpg'/>
   </Layout>
 
   )
